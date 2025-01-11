@@ -10,11 +10,11 @@
     $fullname=$firstname."".$lastname;
     
     //b.string length
-    $str="hello,world!";
+    $str="javapoint";
     echo strlen($str);
 
     //c.substring extraction
-    $str="hello,world!";
+    $str="substr in php";
     echo substr($str,0,5);
 
     //d.case conversion
@@ -35,12 +35,10 @@
     echo strrev($str);
 
     //g.compares two strings(case-sensitive)
-    $str="hello,world!";
-    echo strcmp($str);
+    echo strcmp("hello world!","hello php");
 
     //h.compares two strings(case-insensitive)
-    $str="hello,world!";
-    echo strcasecmp($str);
+    echo strcasecmp("hello world!","hello php");
 
 
     //numeric operations
